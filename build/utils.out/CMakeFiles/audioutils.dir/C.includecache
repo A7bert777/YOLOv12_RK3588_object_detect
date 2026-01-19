@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../3rdparty/libsndfile/include/sndfile.h
+stdio.h
+-
+stdint.h
+-
+sys/types.h
+-
+
+/data/github_project/YOLOv12_RK3588_object_detect/utils/audio_utils.c
+stdio.h
+-
+stdlib.h
+-
+sndfile.h
+-
+audio_utils.h
+/data/github_project/YOLOv12_RK3588_object_detect/utils/audio_utils.h
+
+/data/github_project/YOLOv12_RK3588_object_detect/utils/audio_utils.h
+
